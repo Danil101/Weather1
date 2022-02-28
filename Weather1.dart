@@ -256,7 +256,7 @@ Row _Text() {
         ),
       ),
       SizedBox(
-        width: 24.0,
+        heigth: 150.0,
     )],
   );
 }
