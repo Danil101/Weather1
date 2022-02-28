@@ -37,10 +37,6 @@ Widget _buildBody() {
               Divider(),
               _ExtraWeatherDetail(),
               Divider(),
-              Divider(),
-              Divider(),
-              Divider(),
-              Divider(),
               _Text(),
             ],
           ),
@@ -259,6 +255,8 @@ Row _Text() {
           fontWeight: FontWeight.w400,
         ),
       ),
-    ],
+      SizedBox(
+        width: 24.0,
+    )],
   );
 }
